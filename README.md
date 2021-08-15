@@ -39,7 +39,7 @@ sistema com as condicionais anteriores e, quando for o dia ativo do rodizio,
 retorna true; caso contrário, false.
 
 Exemplo A: hoje é segunda-feira, o carro é da marca Fiat, modelo Uno do ano de 2001, 
-ou seja, seu rodízio será às segundas-feiras e o atributo de rodízio ativo será TRUE.
+ou seja, seu rodízio será às segundas-feiras e o atributo de rodízio ativo será TRUE. <br>
 Exemplo B: hoje é quinta-feira, o carro é da marca Hyundai, modelo HB20 do ano de 
 2021, ou seja, seu rodizio será às segundas-feiras e o atributo de rodízio ativo 
 será FALSE.
