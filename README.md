@@ -4,21 +4,27 @@ do usuário, outra para o cadastro de veículos e por último, mas não menos im
 listagem dos veículos para um usuário específico. Para isto usaremos Java como 
 linguagem e Spring + Hibernate como stacks de tecnologia fundamentais da aplicação. O 
 que precisa fazer:
+
 Você está fazendo uma API REST que precisará controlar veículos de usuários.
 O primeiro passo deve ser a construção de um cadastro de usuários, sendo 
 obrigatórios: nome, e-mail, CPF e data de nascimento, sendo que e-mail e CPF devem 
 ser únicos.
+
 O segundo passo é criar um cadastro de veículos, sendo obrigatórios: Marca, Modelo 
 do Veículo e Ano. E o serviço deve consumir a API da FIPE 
 (https://deividfortuna.github.io/fipe/) para obter os dados do valor do veículo baseado 
 nas informações inseridas.
+
 O terceiro passo é criar um endpoint que retornará um usuário com a lista de todos 
 seus veículos cadastrados.
+
 Você deve construir 3 endpoints neste sistema, o cadastro do usuário, o cadastro de 
 veículo e a listagem dos veículos para um usuário específico.
+
 No endpoint que listará seus veículos, devemos considerar algumas configurações a 
 serem exibidas para o usuário final. Vamos criar dois novos atributos no objeto do 
 carro, sendo eles:
+
 1.) Dia do rodízio deste carro, baseado no último número do ano do veículo, 
 considerando as condicionais:
 Final 0-1: segunda-feira
