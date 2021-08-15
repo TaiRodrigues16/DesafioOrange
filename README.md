@@ -28,11 +28,11 @@ carro, sendo eles:
 1.) Dia do rodízio deste carro, baseado no último número do ano do veículo, 
 considerando as condicionais:
 
-Final 0-1: segunda-feira
-Final 2-3: terça-feira
-Final 4-5: quarta-feira
-Final 6-7: quinta-feira
-Final 8-9: sexta-feira
+Final 0-1: segunda-feira \n
+Final 2-3: terça-feira \n
+Final 4-5: quarta-feira \n
+Final 6-7: quinta-feira \n
+Final 8-9: sexta-feira \n
 
 2.) Também devemos criar um atributo de rodízio ativo, que compara a data atual do 
 sistema com as condicionais anteriores e, quando for o dia ativo do rodizio, 
